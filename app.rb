@@ -5,6 +5,7 @@ require 'sass'
 require 'sinatra/simple-navigation'
 
 
+
 get '/' do
 	haml :index
 end
@@ -16,6 +17,11 @@ end
 get '/about' do
   haml  :about
 end
+
+get '/nested_menu' do
+  haml  :nested_menu
+end
+
 
 get '/stylesheets/*' do
   content_type 'text/css', :charset => 'utf-8'
