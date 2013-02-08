@@ -3,8 +3,6 @@
 ## About
 
 My own Sinatra bootstrap.
-Includes test grill at:
-http://localhost:4567/grid
 
 ## Includes
 
@@ -13,14 +11,16 @@ http://localhost:4567/grid
 - Bundler
 - Haml
 - Twitter bootstrap
+- sass
+  - served from ../sass/* directory as /stylesheets/*
+- Heroku Procfile
 
 ## ToDo
 
 - check for latest bootstrap versions
-- heroku integration
-- Integrate sass
-  - sass as a gem ?
 - why is jquery twice?
 - go semantic
+- add navigation
 
-### forked from [ghostandthemachine](https://github.com/ghostandthemachine/sinatra-haml-bootstrap-starter)
+
+### Originally forked from [ghostandthemachine](https://github.com/ghostandthemachine/sinatra-haml-bootstrap-starter)
