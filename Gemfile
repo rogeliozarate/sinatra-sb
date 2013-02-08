@@ -6,3 +6,4 @@ gem "sinatra-reloader"
 gem "thin"
 gem "haml"
 gem "sass"
+gem 'sinatra-simple-navigation'
