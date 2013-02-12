@@ -14,6 +14,11 @@ get '/grid' do
   haml  :grid
 end
 
+
+get '/showcase' do
+  haml  :showcase
+end
+
 get '/about' do
   haml  :about
 end
